@@ -10,6 +10,13 @@ namespace Eje2
     {
         static void Main(string[] args)
         {
+            var radio = 4;
+            Circulo c = new Circulo(radio);
+            Console.WriteLine("El radio del circulo es: " + radio);
+            Console.WriteLine("El area es: " + c.CalcularArea());
+            Console.WriteLine("El perimetro es: " + c.CalcularPerimetro());
+
+            Console.ReadKey(true);
         }
     }
 }
